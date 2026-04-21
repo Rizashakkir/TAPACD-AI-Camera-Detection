@@ -1,0 +1,11 @@
+train: C:/Users/user/OneDrive/Desktop/yolo_training/TAPACD.v2i.yolov8/train/images
+val: C:/Users/user/OneDrive/Desktop/yolo_training/TAPACD.v2i.yolov8/valid/images
+
+nc: 1
+names: ['phone-qaR7']
+roboflow:
+  workspace: phone-detection-dov8o
+  project: tapacd-gfoft
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/phone-detection-dov8o/tapacd-gfoft/dataset/2
